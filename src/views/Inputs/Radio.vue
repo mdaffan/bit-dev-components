@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    {{ radio }}
     <Radio label="Okay" name="type" value="nope" v-model="radio" />
     <Radio label="Nope" name="type" value="nope1" v-model="radio" />
     <Radio label="Maybe" name="type" value="nope2" v-model="radio" />

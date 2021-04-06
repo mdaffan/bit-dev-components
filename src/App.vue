@@ -59,4 +59,24 @@
       }
     }
   }
+  table {
+    border-collapse: collapse;
+  }
+  th {
+    background: #ccc;
+  }
+
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 8px !important;
+  }
+
+  tr {
+    background: #efefef;
+  }
+
+  tr:hover {
+    background: #d1d1d1;
+  }
 </style>

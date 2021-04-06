@@ -36,8 +36,8 @@
 </template>
 
 <script>
-  // import CheckBox from '@bit/mdaffan.test.checkbox';
-  import CheckBox from '@/components/Inputs/Checkbox.vue';
+  import CheckBox from '@bit/mdaffan.test.checkbox';
+  // import CheckBox from '@/components/Inputs/Checkbox.vue';
   export default {
     components: {
       CheckBox
@@ -45,25 +45,4 @@
   };
 </script>
 
-<style>
-  table {
-    border-collapse: collapse;
-  }
-  th {
-    background: #ccc;
-  }
-
-  th,
-  td {
-    border: 1px solid #ccc;
-    padding: 8px;
-  }
-
-  tr {
-    background: #efefef;
-  }
-
-  tr:hover {
-    background: #d1d1d1;
-  }
-</style>
+<style></style>

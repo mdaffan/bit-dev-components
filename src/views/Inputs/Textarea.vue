@@ -33,8 +33,8 @@
 </template>
 
 <script>
-  //   import TextArea from '@bit/mdaffan.test.text-area';
-  import TextArea from '@/components/Inputs/TextArea.vue';
+  import TextArea from '@bit/mdaffan.test.text-area';
+  // import TextArea from '@/components/Inputs/TextArea.vue';
   export default {
     components: {
       TextArea
