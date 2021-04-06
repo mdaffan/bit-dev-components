@@ -1,37 +1,17 @@
 <template>
-  <div>
-    <!-- {{ text }}
-    <TextField v-model="text" />
-    <Checkbox />
-    <Radio />
-    <SignaturePad />
-    <c-switch /> -->
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">TextField</router-link> |
+      <router-link to="/about">TextArea</router-link> |
+      <router-link to="/about">Radio</router-link> |
+      <router-link to="/about">Checkbox</router-link> |
+      <router-link to="/about">Switch</router-link> |
+      <router-link to="/about">Buttons</router-link> |
+      <router-link to="/components/signature-pad">Signaturepad</router-link>
+    </div>
+    <router-view />
   </div>
 </template>
-
-<script>
-  import TextField from './components/Inputs/Textfield.vue';
-  import Checkbox from './components/Inputs/Checkbox.vue';
-  import Radio from '@bit/mdaffan.test.radio';
-  import Switch from './components/Inputs/Switch.vue';
-  import SignaturePad from '@bit/mdaffan.test.signature-pad';
-  // import SignaturePad from '@bit/mdaffan.test.signature-pad';
-  export default {
-    name: 'App',
-    components: {
-      TextField,
-      Checkbox,
-      Radio,
-      SignaturePad,
-      'c-switch': Switch
-    },
-    data: function () {
-      return {
-        text: ''
-      };
-    }
-  };
-</script>
 
 <style lang="scss">
   #app {
@@ -40,6 +20,18 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+  }
+
+  #nav {
+    padding: 30px;
+
+    a {
+      font-weight: bold;
+      color: #2c3e50;
+
+      &.router-link-exact-active {
+        color: #42b983;
+      }
+    }
   }
 </style>
