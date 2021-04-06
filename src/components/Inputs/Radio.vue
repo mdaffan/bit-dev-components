@@ -26,6 +26,10 @@
 </template>
 
 <script>
+import Vue from 'vue';
+import {Radio} from 'buefy';
+import 'buefy/dist/buefy.css';
+Vue.use(Radio);
     export default {
         data() {
             return {

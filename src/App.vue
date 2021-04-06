@@ -1,25 +1,29 @@
 <template>
   <div>
-    {{ text }}
+    <!-- {{ text }}
     <TextField v-model="text" />
     <Checkbox />
     <Radio />
-    <Switch />
+    <SignaturePad />
+    <c-switch /> -->
   </div>
 </template>
 
 <script>
   import TextField from './components/Inputs/Textfield.vue';
   import Checkbox from './components/Inputs/Checkbox.vue';
-  import Radio from './components/Inputs/Radio.vue';
+  import Radio from '@bit/mdaffan.test.radio';
   import Switch from './components/Inputs/Switch.vue';
+  import SignaturePad from '@bit/mdaffan.test.signature-pad';
+  // import SignaturePad from '@bit/mdaffan.test.signature-pad';
   export default {
     name: 'App',
     components: {
       TextField,
       Checkbox,
       Radio,
-      Switch
+      SignaturePad,
+      'c-switch': Switch
     },
     data: function () {
       return {

@@ -866,6 +866,23 @@
     "lodash" "^4.17.19"
     "to-fast-properties" "^2.0.0"
 
+"@bit/mdaffan.test.radio@^1.0.2":
+  "integrity" "sha1-4RijolXyLo+krzOsWabJwTmCQW0="
+  "resolved" "https://node.bit.dev/mdaffan.test.radio/-/mdaffan.test.radio-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "buefy" "^0.8.20"
+    "vue" "^2.6.11"
+
+"@bit/mdaffan.test.signature-pad@^1.0.2":
+  "integrity" "sha1-P0irD2cVei2uUm6Omtdnf0ezdLw="
+  "resolved" "https://node.bit.dev/mdaffan.test.signature-pad/-/mdaffan.test.signature-pad-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "buefy" "^0.8.20"
+    "vue" "^2.6.11"
+    "vue-signature-pad" "^2.0.2"
+
 "@hapi/address@2.x.x":
   "integrity" "sha1-XWftQ/P9QaadS5/3tW58DR0KgeU="
   "resolved" "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz"
@@ -5645,6 +5662,11 @@
   "resolved" "https://registry.npm.taobao.org/merge-descriptors/download/merge-descriptors-1.0.1.tgz"
   "version" "1.0.1"
 
+"merge-images@^1.1.0":
+  "integrity" "sha512-hEGvgnTdXr08uzGvEArxRsKpy7WmozM73YaSi4s5IYF4LxrhANpqfHaz9CgBZ5+0+s2NsjPnPdStz3aCc0Yulw=="
+  "resolved" "https://registry.npmjs.org/merge-images/-/merge-images-1.2.0.tgz"
+  "version" "1.2.0"
+
 "merge-source-map@^1.1.0":
   "integrity" "sha1-L93n5gIJOfcJBqaPLXrmheTIxkY="
   "resolved" "https://registry.npm.taobao.org/merge-source-map/download/merge-source-map-1.1.0.tgz"
@@ -7756,6 +7778,11 @@
   "resolved" "https://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.3.tgz"
   "version" "3.0.3"
 
+"signature_pad@^3.0.0-beta.3":
+  "integrity" "sha512-cOf2NhVuTiuNqe2X/ycEmizvCDXk0DoemhsEpnkcGnA4kS5iJYTCqZ9As7tFBbsch45Q1EdX61833+6sjJ8rrw=="
+  "resolved" "https://registry.npmjs.org/signature_pad/-/signature_pad-3.0.0-beta.4.tgz"
+  "version" "3.0.0-beta.4"
+
 "simple-swizzle@^0.2.2":
   "integrity" "sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo="
   "resolved" "https://registry.npm.taobao.org/simple-swizzle/download/simple-swizzle-0.2.2.tgz"
@@ -8813,6 +8840,15 @@
     "loader-utils" "^1.1.0"
     "vue-hot-reload-api" "^2.3.0"
     "vue-style-loader" "^4.1.0"
+
+"vue-signature-pad@^2.0.2":
+  "integrity" "sha512-zJ7Rs8//486m0lY095xGiBnJnHPz4iBVpQfL/5Y1XJ/O0yMbSbDhE+lFKBskjXQRLjoAcYZx5dgeYlcLG7T6Hw=="
+  "resolved" "https://registry.npmjs.org/vue-signature-pad/-/vue-signature-pad-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "merge-images" "^1.1.0"
+    "signature_pad" "^3.0.0-beta.3"
+    "vue" "^2.6.11"
 
 "vue-style-loader@^4.1.0", "vue-style-loader@^4.1.2":
   "integrity" "sha1-bVWGOlH6dXqyTonZNxRlByqnvDU="

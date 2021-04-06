@@ -17,6 +17,7 @@
 </script>
 
 <style lang="scss" scoped>
+  @import '../../styles/_theme-colors.scss';
   .sh-custom-checkbox {
     position: relative;
     height: 2rem;
