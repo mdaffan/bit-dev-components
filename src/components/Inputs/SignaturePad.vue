@@ -12,7 +12,7 @@
           />
         </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-3 mt-2">
           <button class="btn btn-outline-secondary" @click="undo">Undo</button>
         </div>
@@ -29,7 +29,7 @@
             Resume
           </button>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

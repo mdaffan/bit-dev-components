@@ -59,8 +59,6 @@
       }
     }
   }
-</style>
-<style lang="scss" scoped>
   .control.has-icons-left .icon.is-left {
     height: 4.4rem;
   }

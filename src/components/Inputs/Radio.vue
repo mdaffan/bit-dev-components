@@ -1,45 +1,31 @@
 <template>
-    <section>
-        <div class="block">
-            <b-radio v-model="radio"
-                name="name"
-                native-value="Flint">
-                Flint
-            </b-radio>
-            <b-radio v-model="radio"
-                name="name"
-                native-value="Silver">
-                Silver
-            </b-radio>
-            <b-radio v-model="radio"
-                name="name"
-                native-value="Jack">
-                Jack
-            </b-radio>
-           
-        </div>
-        <p class="content">
-            <b>Selection:</b>
-            {{ radio }}
-        </p>
-    </section>
+  <section>
+    <div class="block">
+      <b-radio :name="name" @change.native="radioInput" :native-value="value">
+        {{ label }}
+      </b-radio>
+    </div>
+  </section>
 </template>
 
 <script>
-import Vue from 'vue';
-import {Radio} from 'buefy';
-import 'buefy/dist/buefy.css';
-Vue.use(Radio);
-    export default {
-        data() {
-            return {
-                radio: 'Jack'
-            }
-        }
+  import Vue from 'vue';
+  import { Radio } from 'buefy';
+  import 'buefy/dist/buefy.css';
+  Vue.use(Radio);
+  export default {
+    props: {
+      name: String,
+      value: String,
+      label: String,
+      checked: String
+    },
+    methods: {
+      radioInput(e) {
+        this.$emit(e.target.value);
+      }
     }
-</script>
+  };
 </script>
 
-<style>
-
-</style>
+<style></style>

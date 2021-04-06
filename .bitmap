@@ -18,7 +18,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "mdaffan.test/radio@1.0.2": {
+    "mdaffan.test/radio@1.0.3": {
         "files": [
             {
                 "relativePath": "src/components/inputs/Radio.vue",
@@ -30,7 +30,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "mdaffan.test/signature-pad@1.0.2": {
+    "mdaffan.test/signature-pad@1.0.3": {
         "files": [
             {
                 "relativePath": "src/components/inputs/SignaturePad.vue",
@@ -42,7 +42,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "mdaffan.test/switch@1.0.2": {
+    "mdaffan.test/switch@1.0.3": {
         "files": [
             {
                 "relativePath": "src/components/inputs/Switch.vue",
@@ -54,7 +54,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "mdaffan.test/text-area@1.0.2": {
+    "mdaffan.test/text-area@1.0.3": {
         "files": [
             {
                 "relativePath": "src/components/inputs/TextArea.vue",
@@ -66,7 +66,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "mdaffan.test/textfield@1.0.2": {
+    "mdaffan.test/textfield@1.0.3": {
         "files": [
             {
                 "relativePath": "src/components/inputs/Textfield.vue",

@@ -20,6 +20,10 @@
 </template>
 
 <script>
+  import Vue from 'vue';
+  import { Switch } from 'buefy';
+  Vue.use(Switch);
+  import 'buefy/dist/buefy.css';
   export default {
     data() {
       return {

@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@bit/mdaffan.test.radio": "^1.0.2",
-    "@bit/mdaffan.test.signature-pad": "^1.0.2",
+    "@bit/mdaffan.test.checkbox": "^1.0.2",
+    "@bit/mdaffan.test.radio": "^1.0.3",
+    "@bit/mdaffan.test.signature-pad": "^1.0.3",
+    "@bit/mdaffan.test.switch": "^1.0.3",
+    "@bit/mdaffan.test.text-area": "^1.0.3",
+    "@bit/mdaffan.test.textfield": "^1.0.3",
     "buefy": "^0.8.20",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
