@@ -871,10 +871,10 @@
   "resolved" "https://node.bit.dev/mdaffan.test.checkbox/-/mdaffan.test.checkbox-1.0.2.tgz"
   "version" "1.0.2"
 
-"@bit/mdaffan.test.radio@^1.0.3":
-  "integrity" "sha1-77sxS2MnLIYMa0cU7Ji7cl5T9YQ="
-  "resolved" "https://node.bit.dev/mdaffan.test.radio/-/mdaffan.test.radio-1.0.3.tgz"
-  "version" "1.0.3"
+"@bit/mdaffan.test.radio@^1.0.4":
+  "integrity" "sha1-zI50hfhAvUIkhKZfuG2wGN4KVQY="
+  "resolved" "https://node.bit.dev/mdaffan.test.radio/-/mdaffan.test.radio-1.0.4.tgz"
+  "version" "1.0.4"
   dependencies:
     "buefy" "^0.8.20"
     "vue" "^2.6.11"
