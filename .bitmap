@@ -18,7 +18,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "mdaffan.test/radio@1.0.3": {
+    "mdaffan.test/radio@1.0.4": {
         "files": [
             {
                 "relativePath": "src/components/inputs/Radio.vue",
