@@ -1,8 +1,9 @@
 <template>
   <div class="container">
-    <Radio label="Okay" name="type" value="nope" v-model="radio" />
-    <Radio label="Nope" name="type" value="nope1" v-model="radio" />
-    <Radio label="Maybe" name="type" value="nope2" v-model="radio" />
+    {{ radio }}
+    <Radio label="Okay" name="radio" value="nope" v-model="radio" />
+    <Radio label="Nope" name="radio" value="nope1" v-model="radio" />
+    <Radio label="Maybe" name="radio" value="nope2" v-model="radio" />
     <div class="break"></div>
     <div class="npm-package">npm i @bit/mdaffan.test.radio</div>
     <div class="break"></div>
@@ -38,15 +39,15 @@
 </template>
 
 <script>
-  import Radio from '@bit/mdaffan.test.radio';
-  //   import Radio from '@/components/Inputs/Radio.vue';
+  // import Radio from '@bit/mdaffan.test.radio';
+  import Radio from '@/components/Inputs/Radio.vue';
   export default {
     components: {
       Radio
     },
     data: function () {
       return {
-        radio: 'nope'
+        radio: 'nope2'
       };
     }
   };
